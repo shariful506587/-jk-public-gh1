@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clonning Git Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/shariful506587/-jk-public-gh1.git'
+                git branch: 'main', url: 'https://github.com/herbertsouzapereira/-jk-public-gh.git'
             }
         }
         stage('Building Image') {
